@@ -4,7 +4,7 @@ Author URI: https://github.com/bestwebsoft
 Tags: light, gray, white, two-columns, fixed-layout, right-sidebar, custom-menu, sticky-post, threaded-comments, featured-images, theme-options, translation-ready
 Requires at least: 3.3
 Tested up to: 3.8.1
-Stable tag: 1.2
+Stable tag: 1.5
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -94,6 +94,9 @@ If menu reaches the end of the screen, the menu will be reflected in the other d
 
 == Changelog ==
 
+= V1.5 - 25.02.2014 =
+* Bugfix : We fixed the bug of the background for current menu element.
+
 = V1.4 - 02.02.2014 =
 * Update : We updated all functionality for wordpress 3.8.1.
 * Bugfix : We fixed the bug of declaring copyright to Theme Preview.
@@ -114,6 +117,9 @@ If menu reaches the end of the screen, the menu will be reflected in the other d
 * Release Blogotron theme.
 
 == Upgrade Notice ==
+
+= V1.5 =
+We fixed the bug of the background for current menu element.
 
 = V1.4 =
 We updated all functionality for wordpress 3.8.1. We fixed the bug of declaring copyright to Theme Preview.
