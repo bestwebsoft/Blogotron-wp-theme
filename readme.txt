@@ -3,14 +3,14 @@ Contributors: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
 Tags: light, gray, white, two-columns, fixed-layout, right-sidebar, custom-menu, sticky-post, threaded-comments, featured-images, theme-options, translation-ready
 Requires at least: 3.3
-Tested up to: 3.8.1
-Stable tag: 1.5
+Tested up to: 3.9.1
+Stable tag: 1.7
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Blogotron is a free HTML5 WordPress theme with a fixed layout for blogs and websites.
+Blogotron comes packaged with tons of great features, such as stylish design, simple funtionality and more. The Theme is great for tech companies, marketing news, design firms of business reviews. It will surely impress your visitors with its cutting edge style. Blogotron is also a great tool for local business directories, travel guides building travel blogs, etc. Your possibilities are endless with a simplicity and an eye-catching design of this great Theme! However, Blogotron puts your work first, keeping the design elements to a minimum while still maintaining beautiful and modern style. Take a look at this theme's demo at http://bestwebsoft.com/wordpress_demo_theme/blogotron/
 
 = Features =
 
@@ -94,12 +94,20 @@ If menu reaches the end of the screen, the menu will be reflected in the other d
 
 == Changelog ==
 
+= V1.7 - 31.07.2014 =
+* Bugfix: We fixed bug in footer.php file.
+
+= V1.6 - 30.07.2014 =
+* Update: We updated all functionality for wordpress 3.9.1. 
+* Update: We update style.css file.
+* New: We add blogotron.pot file. 
+
 = V1.5 - 25.02.2014 =
-* Bugfix : We fixed the bug of the background for current menu element.
+* Bugfix: We fixed the bug of the background for current menu element.
 
 = V1.4 - 02.02.2014 =
-* Update : We updated all functionality for wordpress 3.8.1.
-* Bugfix : We fixed the bug of declaring copyright to Theme Preview.
+* Update: We updated all functionality for wordpress 3.8.1.
+* Bugfix: We fixed the bug of declaring copyright to Theme Preview.
 
 = V1.3 - 29.01.2014 =
 * Change: Updated style.css for correctly displaying navigation menu and some elements.
@@ -117,6 +125,12 @@ If menu reaches the end of the screen, the menu will be reflected in the other d
 * Release Blogotron theme.
 
 == Upgrade Notice ==
+
+= V1.7 =
+We fixed bug in footer.php file.
+
+= V1.6 =
+We updated all functionality for wordpress 3.9.1. We add blogotron.pot file. We update style.css file.
 
 = V1.5 =
 We fixed the bug of the background for current menu element.

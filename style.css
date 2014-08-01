@@ -3,8 +3,8 @@ Theme Name: Blogotron
 Theme URI: http://bestwebsoft.com/theme/blogotron/
 Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
-Description: HTML5 WordPress theme for blogs and websites.
-Version: 1.5
+Description: Blogotron comes packaged with tons of great features, such as stylish design, simple funtionality and more. The Theme is great for tech companies, marketing news, design firms of business reviews. It will surely impress your visitors with its cutting edge style. Blogotron is also a great tool for local business directories, travel guides building travel blogs, etc. Your possibilities are endless with a simplicity and an eye-catching design of this great Theme! However, Blogotron puts your work first, keeping the design elements to a minimum while still maintaining beautiful and modern style. Take a look at this theme's demo at http://bestwebsoft.com/wordpress_demo_theme/blogotron/
+Version: 1.7
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: light, gray, white, two-columns, fixed-layout, right-sidebar, custom-menu, sticky-post, threaded-comments, featured-images, theme-options, translation-ready
@@ -1385,6 +1385,7 @@ dl.gallery-item {
 
 input[type="text"], 
 input[type="password"],
+input[type="email"],
 input[type="search"] {
 	width: 200px;
 	height: 18px;
@@ -1406,6 +1407,7 @@ input[type="password"] {
 
 input[type="submit"],
 input[type="reset"],
+input[type="button"],
 button {
 	height: 49px;
 	margin: 0;
@@ -1424,6 +1426,7 @@ button {
 
 input[type="submit"]:hover,
 input[type="reset"]:hover,
+input[type="button"]:hover,
 button:hover {
 	color: #555;
 	border: 1px solid #d5d5d5;

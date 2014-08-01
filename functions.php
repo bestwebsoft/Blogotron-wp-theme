@@ -388,4 +388,3 @@ add_action( 'blogotron_post_nav', 'blogotron_post_nav' );
 add_action( 'blogotron_archive_title', 'blogotron_archive_title' );
 add_action( 'blogotron_the_thumbnail_caption', 'blogotron_the_thumbnail_caption' );
 add_action( 'blogotron_the_attachment', 'blogotron_the_attachment' );
-?>
