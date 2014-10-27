@@ -3,14 +3,14 @@
 
 Blogotron is a free HTML5 WordPress theme with a fixed layout for blogs and websites.
 
-<img src="http://bestwebsoft.com/wp-content/uploads/2014/01/banner-blogotron.jpg" />
+<img src="http://bestwebsoft.com/wp-content/uploads/2014/09/blogotron-wp-banner.jpg" />
 
-<a href="http://bestwebsoft.com/theme/blogotron/#description" target=_blank>Description</a> | 
-<a href="http://bestwebsoft.com/theme/blogotron/#installation" target=_blank>Installation</a> | 
-<a href="http://bestwebsoft.com/theme/blogotron/#faq" target=_blank>FAQ</a> | 
-<a href="http://bestwebsoft.com/theme/blogotron/#screenshots" target=_blank>Screenshots</a> | 
-<a href="http://bestwebsoft.com/theme/blogotron/#changelog" target=_blank>Changelog</a> | 
-<a href="http://bestwebsoft.com/theme/blogotron/#download" target=_blank>Download</a>
+<a href="http://bestwebsoft.com/products/blogotron/description" target=_blank>Description</a> | 
+<a href="http://bestwebsoft.com/products/blogotron/installation" target=_blank>Installation</a> | 
+<a href="http://bestwebsoft.com/products/blogotron/faq" target=_blank>FAQ</a> | 
+<a href="http://bestwebsoft.com/products/blogotron/screenshots" target=_blank>Screenshots</a> | 
+<a href="http://bestwebsoft.com/products/blogotron/changelog" target=_blank>Changelog</a> | 
+<a href="http://bestwebsoft.com/products/blogotron/download" target=_blank>Download</a>
 
 Features
 -----------------------------
@@ -27,7 +27,7 @@ Translation
 -----------------------------
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, you can send the text of PO and MO files for BestWebSoft and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files Poedit.
+If you create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text in PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 Copyrights for Resources used in this theme.
 -----------------------------
