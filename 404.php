@@ -3,7 +3,7 @@
  * The template for displaying 404 page (Not Found).
  *
  * @subpackage Blogotron
- * @since Blogotron 1.4
+ * @since      Blogotron 1.4
  */
 get_header(); ?>
 	<div id="content" role="main">
@@ -20,5 +20,5 @@ get_header(); ?>
 			</div><!-- .post-content -->
 		</article><!-- .post -->
 	</div><!-- #content -->
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_sidebar();
+get_footer();

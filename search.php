@@ -3,7 +3,7 @@
  * The template for displaying Search Results pages.
  *
  * @subpackage Blogotron
- * @since Blogotron 1.4
+ * @since      Blogotron 1.4
  */
 get_header(); ?>
 	<div id="content" role="main">
@@ -20,4 +20,4 @@ get_header(); ?>
 		endif; // if ( have_posts() ) ?>
 	</div><!-- #content -->
 <?php get_sidebar();
-get_footer(); ?>
+get_footer();

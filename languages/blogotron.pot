@@ -1,8 +1,9 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Blogotron 1.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 11:18+0200\n"
+"POT-Creation-Date: 2016-06-23 16:23+0300\n"
 "PO-Revision-Date: 2014-07-30 12:00+0300\n"
 "Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
 "Language-Team: BestWebSoft <info@bestwebsoft.com>\n"
@@ -11,302 +12,226 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-# @ blogotron
 #: 404.php:11
-#: functions.php:255
+#, fuzzy
 msgid "Page Not Found"
-msgstr ""
+msgstr "Страница Не Найдена"
 
-# @ blogotron
 #: 404.php:15
+#, fuzzy
 msgid "Error 404"
-msgstr ""
+msgstr "Ошибка 404"
 
-# @ blogotron
 #: 404.php:18
+#, fuzzy
 msgid "Something has gone wrong? Try to use the search."
-msgstr ""
+msgstr "Что то пошло не так? Попробуйте использовать поиск."
 
-# @ blogotron
-#: comments.php:16
-msgid "0 comments:"
-msgstr ""
-
-# @ blogotron
-#: comments.php:16
-msgid "1 comment:"
-msgstr ""
-
-# @ blogotron
-#: comments.php:16
-msgid "comments:"
-msgstr ""
-
-# @ blogotron
 #: comments.php:18
+#, fuzzy
 msgid "Comments are closed."
-msgstr ""
+msgstr "Комментарии запрещены"
 
-# @ blogotron
 #: comments.php:29
+#, fuzzy
 msgid "&laquo; Previous Comments"
-msgstr ""
+msgstr "&laquo; Предыдущие Комментарии"
 
-# @ blogotron
 #: comments.php:30
+#, fuzzy
 msgid "Next Comments &raquo;"
-msgstr ""
+msgstr "Следующие Комментарии &raquo;"
 
-# @ blogotron
-#: content-image.php:20
-#: content.php:25
+#: content-image.php:21 content.php:24
+#, fuzzy
 msgid "Posted on"
-msgstr ""
+msgstr "Опубликовано"
 
-# @ blogotron
-#: content-image.php:22
-#: content.php:27
-#: functions.php:333
+#: content-image.php:24 content.php:26 functions.php:268
 msgid "in"
 msgstr ""
 
-# @ blogoton
-# @ blogotron
-#: content-image.php:24
-#: content-page.php:23
-#: content.php:29
-#: functions.php:334
-#: functions.php:346
-#: functions.php:364
+#: content-image.php:27 content-page.php:23 content.php:29 functions.php:269
+#: functions.php:281 functions.php:299
+#, fuzzy
 msgid "[Edit]"
-msgstr ""
+msgstr "[Редактировать]"
 
-# @ blogotron
-#: content-image.php:39
+#: content-image.php:42
+#, fuzzy
 msgid "&laquo; Previous Image"
-msgstr ""
+msgstr "&laquo; Предыдущее Изображение"
 
-# @ blogotron
-#: content-image.php:40
+#: content-image.php:43
+#, fuzzy
 msgid "Next Image &raquo;"
-msgstr ""
+msgstr "Следующее Изображение &raquo;"
 
-# @ blogotron
-#: content-image.php:45
-#: content-page.php:34
-#: content.php:42
+#: content-image.php:49 content-page.php:35 content.php:43
+#, fuzzy
 msgid "Pages:"
-msgstr ""
+msgstr "Страницы:"
 
-# @ blogotron
-#: content-image.php:51
-#: content.php:61
+#: content-image.php:57 content.php:66
+#, fuzzy
 msgid "Tags: "
-msgstr ""
+msgstr "Тэги: "
 
-# @ blogotron
 #: content-none.php:11
+#, fuzzy
 msgid "Nothing found"
-msgstr ""
+msgstr "Ничего не найдено..."
 
-# @ blogotron
 #: content-none.php:14
+#, fuzzy
 msgid "Sorry, but your search returned no results. Try to change your search and repeat again."
-msgstr ""
+msgstr "Извините, поиск не вернул результатов. Попробуйте изменить ключевые слова и попробовать найти снова."
 
-# @ blogotron
-#: content-page.php:41
-#: content.php:50
+#: content-page.php:44 content.php:53
+#, fuzzy
 msgid "[Top]"
-msgstr ""
+msgstr "[Вверх]"
 
-# @ blogotron
-#: content-page.php:45
-#: content.php:53
+#: content-page.php:48 content.php:57
+#, fuzzy
 msgid "0 comments"
-msgstr ""
+msgstr "0 комментариев"
 
-# @ blogotron
-#: content-page.php:45
-#: content.php:53
+#: content-page.php:48 content.php:57
+#, fuzzy
 msgid "1 comment"
-msgstr ""
+msgstr "1 комментарий"
 
-# @ blogotron
-#: content-page.php:45
-#: content.php:53
-msgid "comments"
-msgstr ""
-
-# @ blogotron
-#: content.php:15
+#: content.php:14
+#, fuzzy
 msgid "Sticky post"
-msgstr ""
+msgstr "Прикрепленный пост"
 
-# @ blogotron
 #: content.php:41
+#, fuzzy
 msgid "Read more... &raquo;"
-msgstr ""
+msgstr "Читать дальше... &raquo;"
 
-# @ blogotron
 #: footer.php:16
+#, fuzzy
 msgid "Powered by"
-msgstr ""
+msgstr "При поддержке"
 
-# @ blogotron
-#: footer.php:16
+#: footer.php:17
 msgid "and"
 msgstr ""
 
-# @ blogotron
-#: functions.php:50
+#: functions.php:49
+#, fuzzy
 msgid "Main Menu"
-msgstr ""
+msgstr "Главное Меню"
 
-# @ blogotron
-#: functions.php:61
+#: functions.php:60
+#, fuzzy
 msgid "Main Sidebar"
-msgstr ""
+msgstr "Главный сайдбар"
 
-# @ blogotron
-#: functions.php:63
+#: functions.php:62
+#, fuzzy
 msgid "Widgets for the sidebar."
-msgstr ""
+msgstr "Виджеты для сайдбара."
 
-# @ blogotron
-#: functions.php:91
+#: functions.php:90
+#, fuzzy
 msgid "Choose file..."
-msgstr ""
+msgstr "Выберите файл..."
 
-# @ blogotron
-#: functions.php:92
+#: functions.php:91
+#, fuzzy
 msgid "File is not selected."
-msgstr ""
+msgstr "Файл выбран"
 
-# @ blogotron
-#: functions.php:93
+#: functions.php:92
+#, fuzzy
 msgid "Enter search keyword"
-msgstr ""
+msgstr "Поиск по сайту"
 
-# @ blogotron
-#: functions.php:233
-#: functions.php:236
-#: functions.php:239
-#: functions.php:297
-#: functions.php:299
-#: functions.php:301
-msgid "Archives for: "
-msgstr ""
-
-# @ blogotron
-#: functions.php:242
-#: functions.php:303
-msgid "Category: "
-msgstr ""
-
-# @ blogotron
-#: functions.php:245
-#: functions.php:305
-msgid "Tag: "
-msgstr ""
-
-# @ blogotron
-#: functions.php:248
-#: functions.php:307
-msgid "Archives"
-msgstr ""
-
-# @ blogotron
-#: functions.php:252
-#: search.php:11
-msgid "Search Results For: "
-msgstr ""
-
-# @ blogotron
-#: functions.php:259
-#, php-format
-msgid "Page %s"
-msgstr ""
-
-# @ blogotron
-#: functions.php:278
+#: functions.php:230
+#, fuzzy
 msgid "&laquo; Previous Page"
-msgstr ""
+msgstr "&laquo; Предыдущая Страница"
 
-# @ blogotron
-#: functions.php:279
+#: functions.php:231
+#, fuzzy
 msgid "Next Page &raquo;"
-msgstr ""
+msgstr "Следующая Страница &raquo;"
 
-# @ blogotron
-#: functions.php:333
+#: functions.php:268
+#, fuzzy
 msgid "Published"
-msgstr ""
+msgstr "Опубликовано"
 
-# @ blogotron
-#: functions.php:333
+#: functions.php:268
 msgid "at"
 msgstr ""
 
-# @ blogotron
-#: functions.php:346
+#: functions.php:281
+#, fuzzy
 msgid "Pingback:"
-msgstr ""
+msgstr "Ответ:"
 
-# @ blogotron
-#: functions.php:358
+#: functions.php:293
+#, fuzzy
 msgid "Post Author"
-msgstr ""
+msgstr "Автор Записи"
 
-# @ blogotron
-#: functions.php:363
-#, php-format
+#: functions.php:298
+#, fuzzy, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s, %2$s "
 
-# @ blogotron
-#: functions.php:368
+#: functions.php:303
+#, fuzzy
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Ваш комментарий ожидает модерации"
 
-# @ blogotron
-#: functions.php:374
+#: functions.php:309
+#, fuzzy
 msgid "Reply"
-msgstr ""
+msgstr "Ответить"
 
-# @ blogotron
+#: search.php:11
+#, fuzzy
+msgid "Search Results For: "
+msgstr "Результаты поиска: "
+
 #: searchform.php:12
+#, fuzzy
 msgid "Search"
-msgstr ""
+msgstr "Найти"
 
-# @ blogotron
-#: sidebar.php:17
+#: sidebar.php:19
+#, fuzzy
 msgid "recent posts"
-msgstr ""
+msgstr "свежие записи"
 
-# @ blogotron
-#: sidebar.php:25
+#: sidebar.php:34
+#, fuzzy
 msgid "recent comments"
-msgstr ""
+msgstr "свежие комментарии"
 
-# @ blogotron
-#: sidebar.php:28
+#: sidebar.php:38
 msgid "on"
 msgstr ""
 
-# @ blogotron
-#: sidebar.php:33
+#: sidebar.php:45
+#, fuzzy
 msgid "archives"
-msgstr ""
+msgstr "архивы"
 
-# @ blogotron
-#: sidebar.php:37
+#: sidebar.php:49
+#, fuzzy
 msgid "categories"
-msgstr ""
+msgstr "рубрики"

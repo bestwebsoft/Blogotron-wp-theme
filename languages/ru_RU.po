@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Blogotron 1.4\n"
+"Project-Id-Version: Blogotron\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-02 11:18+0200\n"
-"PO-Revision-Date: 2014-02-02 11:18+0200\n"
+"POT-Creation-Date: 2016-06-23 16:22+0300\n"
+"PO-Revision-Date: 2016-06-23 16:22+0300\n"
 "Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
 "Language-Team: BestWebSoft <info@bestwebsoft.com>\n"
 "Language: ru_RU\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr_e\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
 # @ blogotron
-#: 404.php:11 functions.php:255
+#: 404.php:11
 msgid "Page Not Found"
 msgstr "Страница Не Найдена"
 
@@ -36,18 +36,12 @@ msgstr "Что то пошло не так? Попробуйте использ�
 
 # @ blogotron
 #: comments.php:16
-msgid "0 comments:"
-msgstr "0 комментариев:"
-
-# @ blogotron
-#: comments.php:16
-msgid "1 comment:"
-msgstr "1 комментарий:"
-
-# @ blogotron
-#: comments.php:16
-msgid "comments:"
-msgstr "комментариев:"
+#, php-format
+msgid "%1$s comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] "%1$s комментарий:"
+msgstr[1] "%1$s комментария:"
+msgstr[2] "%1$s комментариев:"
 
 # @ blogotron
 #: comments.php:18
@@ -65,39 +59,39 @@ msgid "Next Comments &raquo;"
 msgstr "Следующие Комментарии &raquo;"
 
 # @ blogotron
-#: content-image.php:20 content.php:25
+#: content-image.php:21 content.php:24
 msgid "Posted on"
 msgstr "Опубликовано"
 
 # @ blogotron
-#: content-image.php:22 content.php:27 functions.php:333
+#: content-image.php:24 content.php:26 functions.php:268
 msgid "in"
 msgstr "в"
 
 # @ blogoton
 # @ blogotron
-#: content-image.php:24 content-page.php:23 content.php:29 functions.php:334
-#: functions.php:346 functions.php:364
+#: content-image.php:27 content-page.php:23 content.php:29 functions.php:269
+#: functions.php:281 functions.php:299
 msgid "[Edit]"
 msgstr "[Редактировать]"
 
 # @ blogotron
-#: content-image.php:39
+#: content-image.php:42
 msgid "&laquo; Previous Image"
 msgstr "&laquo; Предыдущее Изображение"
 
 # @ blogotron
-#: content-image.php:40
+#: content-image.php:43
 msgid "Next Image &raquo;"
 msgstr "Следующее Изображение &raquo;"
 
 # @ blogotron
-#: content-image.php:45 content-page.php:34 content.php:42
+#: content-image.php:49 content-page.php:35 content.php:43
 msgid "Pages:"
 msgstr "Страницы:"
 
 # @ blogotron
-#: content-image.php:51 content.php:61
+#: content-image.php:57 content.php:66
 msgid "Tags: "
 msgstr "Метки: "
 
@@ -116,27 +110,31 @@ msgstr ""
 "попробовать найти снова."
 
 # @ blogotron
-#: content-page.php:41 content.php:50
+#: content-page.php:44 content.php:53
 msgid "[Top]"
 msgstr "[Вверх]"
 
 # @ blogotron
-#: content-page.php:45 content.php:53
+#: content-page.php:48 content.php:57
 msgid "0 comments"
-msgstr "0 комментариев:"
+msgstr "0 комментариев"
 
 # @ blogotron
-#: content-page.php:45 content.php:53
+#: content-page.php:48 content.php:57
 msgid "1 comment"
-msgstr "1 комментарий:"
+msgstr "1 комментарий"
 
 # @ blogotron
-#: content-page.php:45 content.php:53
-msgid "comments"
-msgstr "комментариев"
+#: content-page.php:48 content.php:57
+#, php-format
+msgid "%1$s comment %2$s"
+msgid_plural "%1$s comments %2$s"
+msgstr[0] "%1$s комментарий %2$s"
+msgstr[1] "%1$s комментария %2$s"
+msgstr[2] "%1$s комментариев %2$s"
 
 # @ blogotron
-#: content.php:15
+#: content.php:14
 msgid "Sticky post"
 msgstr "Прикрепленный пост"
 
@@ -151,117 +149,90 @@ msgid "Powered by"
 msgstr "При поддержке"
 
 # @ blogotron
-#: footer.php:16
+#: footer.php:17
 msgid "and"
 msgstr "и"
 
 # @ blogotron
-#: functions.php:50
+#: functions.php:49
 msgid "Main Menu"
 msgstr "Главное Меню"
 
 # @ blogotron
-#: functions.php:61
+#: functions.php:60
 msgid "Main Sidebar"
 msgstr "Главный Сайдбар"
 
 # @ blogotron
-#: functions.php:63
+#: functions.php:62
 msgid "Widgets for the sidebar."
 msgstr "Виджеты для сайдбара."
 
 # @ blogotron
-#: functions.php:91
+#: functions.php:90
 msgid "Choose file..."
 msgstr "Выберите файл..."
 
 # @ blogotron
-#: functions.php:92
+#: functions.php:91
 msgid "File is not selected."
 msgstr "Файл не выбран."
 
 # @ blogotron
-#: functions.php:93
+#: functions.php:92 searchform.php:11
 msgid "Enter search keyword"
 msgstr "Поиск по сайту"
 
 # @ blogotron
-#: functions.php:233 functions.php:236 functions.php:239 functions.php:297
-#: functions.php:299 functions.php:301
-msgid "Archives for: "
-msgstr "Архивы за: "
-
-# @ blogotron
-#: functions.php:242 functions.php:303
-msgid "Category: "
-msgstr "Рубрика: "
-
-# @ blogotron
-#: functions.php:245 functions.php:305
-msgid "Tag: "
-msgstr "Метка: "
-
-# @ blogotron
-#: functions.php:248 functions.php:307
-msgid "Archives"
-msgstr "Архивы"
-
-# @ blogotron
-#: functions.php:252 search.php:11
-msgid "Search Results For: "
-msgstr "Результаты поиска: "
-
-# @ blogotron
-#: functions.php:259
-#, php-format
-msgid "Page %s"
-msgstr "Страница %s"
-
-# @ blogotron
-#: functions.php:278
+#: functions.php:230
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Предыдущая Страница"
 
 # @ blogotron
-#: functions.php:279
+#: functions.php:231
 msgid "Next Page &raquo;"
 msgstr "Следующая Страница &raquo;"
 
 # @ blogotron
-#: functions.php:333
+#: functions.php:268
 msgid "Published"
 msgstr "Опубликовано"
 
 # @ blogotron
-#: functions.php:333
+#: functions.php:268
 msgid "at"
 msgstr "в разрешении"
 
 # @ blogotron
-#: functions.php:346
+#: functions.php:281
 msgid "Pingback:"
 msgstr "Уведомление:"
 
 # @ blogotron
-#: functions.php:358
+#: functions.php:293
 msgid "Post Author"
 msgstr "Автор Записи"
 
 # @ blogotron
-#: functions.php:363
+#: functions.php:298
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s в %2$s"
 
 # @ blogotron
-#: functions.php:368
+#: functions.php:303
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает модерации."
 
 # @ blogotron
-#: functions.php:374
+#: functions.php:309
 msgid "Reply"
 msgstr "Ответить"
+
+# @ blogotron
+#: search.php:11
+msgid "Search Results For: "
+msgstr "Результаты поиска: "
 
 # @ blogotron
 #: searchform.php:12
@@ -269,26 +240,65 @@ msgid "Search"
 msgstr "Найти"
 
 # @ blogotron
-#: sidebar.php:17
+#: sidebar.php:19
 msgid "recent posts"
 msgstr "свежие записи"
 
 # @ blogotron
-#: sidebar.php:25
+#: sidebar.php:34
 msgid "recent comments"
 msgstr "свежие комментарии"
 
 # @ blogotron
-#: sidebar.php:28
+#: sidebar.php:38
 msgid "on"
 msgstr "в"
 
 # @ blogotron
-#: sidebar.php:33
+#: sidebar.php:45
 msgid "archives"
 msgstr "архивы"
 
 # @ blogotron
-#: sidebar.php:37
+#: sidebar.php:49
 msgid "categories"
 msgstr "рубрики"
+
+# @ blogotron
+#~ msgid "Archives for: "
+#~ msgstr "Архивы за: "
+
+# @ blogotron
+#~ msgid "Category: "
+#~ msgstr "Рубрика: "
+
+# @ blogotron
+#~ msgid "Tag: "
+#~ msgstr "Метка: "
+
+# @ blogotron
+#~ msgid "Archives"
+#~ msgstr "Архивы"
+
+# @ blogotron
+#~ msgid "Page %s"
+#~ msgstr "Страница %s"
+
+# @ blogotron
+#~ msgid "%s comment %s"
+#~ msgid_plural "%s comments %s"
+#~ msgstr[0] "%s комментарий %s"
+#~ msgstr[1] "%s комментария %s"
+#~ msgstr[2] "%s комментариев %s"
+
+# @ blogotron
+#~ msgid "comments"
+#~ msgstr "комментариев"
+
+# @ blogotron
+#~ msgid "0 comments:"
+#~ msgstr "0 комментариев:"
+
+# @ blogotron
+#~ msgid "comments:"
+#~ msgstr "комментариев:"
