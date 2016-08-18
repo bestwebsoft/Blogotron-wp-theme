@@ -33,9 +33,9 @@
 
 		// Customize input[type="file"]
 		$( 'input[type=file]' ).blogotronInputFile( {
-																									'iFileBrowse':      iFileBrowse,
-																									'iFileNotSelected': iFileNotSelected
-																								} );
+			'iFileBrowse': blogotronStringJs.iFileBrowse,
+			'iFileNotSelected': blogotronStringJs.iFileNotSelected
+		} );
 		// Customize input[type="radio"]
 		$( 'input[type=radio]' ).blogotronRadio();
 		// Customize input[type="checkbox"]
@@ -206,9 +206,9 @@
 		'init':  function( options ) {
 			return this.each( function( index ) {
 				var settings = $.extend( {
-																	 'iFileBrowse':      'Choose file...',
-																	 'iFileNotSelected': 'File is not selected.'
-																 }, options );
+					'iFileBrowse': blogotronStringJs.iFileBrowse,
+					'iFileNotSelected': blogotronStringJs.iFileNotSelected
+				}, options );
 				var $this    = $( this );
 				$this.data( 'settings', settings );
 				if ( $this.attr( 'type' ) != 'file' ) {

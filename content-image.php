@@ -11,15 +11,14 @@
 		<h1 class="post-title">
 			<?php if ( is_attachment() || is_single() ) :
 				the_title();
-			else : // if ( is_attachment() || is_single() )
-				?>
+			else : // if ( is_attachment() || is_single() ) ?>
 				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 			<?php endif; // if ( is_attachment() || is_single() ) ?>
 		</h1><!-- .post-title -->
 	</header><!-- .post-header -->
 	<?php if ( ! is_attachment() ) : ?>
 		<div class="post-meta"><?php _e( 'Posted on', 'blogotron' ); ?>
-			<a href="<?php the_permalink(); ?>"><?php the_time( 'j F, Y' ); ?></a>
+			<a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a>
 			<?php if ( has_category() ) :
 				echo __( 'in', 'blogotron' ) . ' ';
 				the_category( ', ' );

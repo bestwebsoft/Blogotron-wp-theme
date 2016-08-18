@@ -72,9 +72,14 @@ function blogotron_scripts_styles() {
 	// Loads our main stylesheet.
 	wp_enqueue_style( 'blogotron-style', get_stylesheet_uri() );
 	//Adds main JavaScript.
-	wp_enqueue_script( 'blogotron-core-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), null, false );
+	wp_enqueue_script( 'blogotron-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), null, false );
 	// Enqueue JavaScript translated variables.
-	wp_enqueue_script( 'blogotron-variables', blogotron_script_variables() );
+	$string_js = array(
+		'iFileBrowse'      => __( 'Choose file...', 'blogotron' ),
+		'iFileNotSelected' => __( 'File is not selected.', 'blogotron' ),
+		'iSearchText'      => __( 'Enter search keyword', 'blogotron' ),
+	);
+	wp_localize_script( 'blogotron-script', 'blogotronStringJs', $string_js );
 	// Loads the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'blogotron-ie-style', get_template_directory_uri() . '/styles/ie.css', false, null );
 	wp_style_add_data( 'blogotron-ie-style', 'conditional', 'lt IE 9' );
@@ -83,15 +88,6 @@ function blogotron_scripts_styles() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-
-// Sets up translated text for variables JavaScript.
-function blogotron_script_variables() { ?>
-	<script type="text/javascript">
-		var iFileBrowse = '<?php _e( 'Choose file...', 'blogotron' ); ?>',
-			iFileNotSelected = '<?php _e( 'File is not selected.', 'blogotron' ); ?>'
-			iSearchText = '<?php _e( 'Enter search keyword', 'blogotron' ); ?>'
-	</script>
-<?php }
 
 // Style the header text displayed on the blog.
 function blogotron_header_style() {
@@ -259,13 +255,13 @@ function blogotron_the_attachment() {
 	$attachment = wp_prepare_attachment_for_js( get_the_ID() ); ?>
 	<div class="post-attachment">
 		<img src="<?php echo $attachment['url']; ?>" alt="<?php echo $attachment['title']; ?>" title="<?php echo $attachment['title']; ?>"/>
-			<?php if ( isset( $attachment['caption'] ) ) {
-				// Show caption to attachment images, if it exists.
-				printf( '<p class="wp-caption-text">%s</p>', $attachment['caption'] );
-			} ?>
+		<?php if ( isset( $attachment['caption'] ) ) {
+			// Show caption to attachment images, if it exists.
+			printf( '<p class="wp-caption-text">%s</p>', $attachment['caption'] );
+		} ?>
 	</div>
 	<div class="post-attachment-meta">
-		<?php _e( 'Published', 'blogotron' ); ?> <?php echo $attachment['dateFormatted']; ?> <?php _e( 'at', 'blogotron' ); ?> <a href="<?php echo $attachment['url'] ?>" title="Link to full-size image"><?php echo $attachment['width']; ?> x <?php echo $attachment['height']; ?></a> <?php _e( 'in', 'blogotron' ); ?> <a href="<?php echo get_permalink( $post->post_parent ); ?>" title="Return to <?php echo get_the_title( $post->post_parent ); ?>" rel="gallery"><?php echo get_the_title( $post->post_parent ); ?></a>
+		<?php _e( 'Published', 'blogotron' ); ?> <?php echo $attachment['dateFormatted']; ?> <?php _e( 'at', 'blogotron' ); ?> <a href="<?php echo $attachment['url'] ?>" title="Link to full-size image"><?php echo $attachment['width']; ?> x <?php echo $attachment['height']; ?></a> <?php _e( 'in', 'blogotron' ); ?> <a href="<?php echo get_permalink( $post->post_parent ); ?>" title="<?php echo __( 'Return to ', 'blogotron' ) . get_the_title( $post->post_parent ); ?>" rel="gallery"><?php echo get_the_title( $post->post_parent ); ?></a>
 		<?php edit_post_link( __( '[Edit]', 'blogotron' ), ' ' ); ?>
 	</div>
 <?php }

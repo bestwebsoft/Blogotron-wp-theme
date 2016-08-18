@@ -10,7 +10,7 @@ $count = $wp_query->current_post + 1; ?>
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 	<header class="post-header">
 		<h1 class="post-title">
-			<?php if ( is_page() ) :
+			<?php if ( is_singular() ) :
 				the_title();
 			else : // if ( is_page() ) ?>
 				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>

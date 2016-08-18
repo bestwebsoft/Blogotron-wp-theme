@@ -1,22 +1,25 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Blogotron\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-23 16:22+0300\n"
-"PO-Revision-Date: 2016-06-23 16:22+0300\n"
-"Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
-"Language-Team: BestWebSoft <info@bestwebsoft.com>\n"
-"Language: ru_RU\n"
+"Project-Id-Version: Blogotron v1.9\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-18 17:38+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr_e\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 # @ blogotron
@@ -59,39 +62,39 @@ msgid "Next Comments &raquo;"
 msgstr "Следующие Комментарии &raquo;"
 
 # @ blogotron
-#: content-image.php:21 content.php:24
+#: content-image.php:20 content.php:24
 msgid "Posted on"
 msgstr "Опубликовано"
 
 # @ blogotron
-#: content-image.php:24 content.php:26 functions.php:268
+#: content-image.php:23 content.php:27 functions.php:264
 msgid "in"
 msgstr "в"
 
 # @ blogoton
 # @ blogotron
-#: content-image.php:27 content-page.php:23 content.php:29 functions.php:269
-#: functions.php:281 functions.php:299
+#: content-image.php:26 content-page.php:22 content.php:30 functions.php:265
+#: functions.php:277 functions.php:295
 msgid "[Edit]"
 msgstr "[Редактировать]"
 
 # @ blogotron
-#: content-image.php:42
+#: content-image.php:41
 msgid "&laquo; Previous Image"
 msgstr "&laquo; Предыдущее Изображение"
 
 # @ blogotron
-#: content-image.php:43
+#: content-image.php:42
 msgid "Next Image &raquo;"
 msgstr "Следующее Изображение &raquo;"
 
 # @ blogotron
-#: content-image.php:49 content-page.php:35 content.php:43
+#: content-image.php:48 content-page.php:34 content.php:44
 msgid "Pages:"
 msgstr "Страницы:"
 
 # @ blogotron
-#: content-image.php:57 content.php:66
+#: content-image.php:56 content.php:67
 msgid "Tags: "
 msgstr "Метки: "
 
@@ -110,22 +113,22 @@ msgstr ""
 "попробовать найти снова."
 
 # @ blogotron
-#: content-page.php:44 content.php:53
+#: content-page.php:43 content.php:54
 msgid "[Top]"
 msgstr "[Вверх]"
 
 # @ blogotron
-#: content-page.php:48 content.php:57
+#: content-page.php:47 content.php:58
 msgid "0 comments"
 msgstr "0 комментариев"
 
 # @ blogotron
-#: content-page.php:48 content.php:57
+#: content-page.php:47 content.php:58
 msgid "1 comment"
 msgstr "1 комментарий"
 
 # @ blogotron
-#: content-page.php:48 content.php:57
+#: content-page.php:47 content.php:58
 #, php-format
 msgid "%1$s comment %2$s"
 msgid_plural "%1$s comments %2$s"
@@ -139,7 +142,7 @@ msgid "Sticky post"
 msgstr "Прикрепленный пост"
 
 # @ blogotron
-#: content.php:41
+#: content.php:42
 msgid "Read more... &raquo;"
 msgstr "Читать дальше... &raquo;"
 
@@ -169,63 +172,67 @@ msgid "Widgets for the sidebar."
 msgstr "Виджеты для сайдбара."
 
 # @ blogotron
-#: functions.php:90
+#: functions.php:78
 msgid "Choose file..."
 msgstr "Выберите файл..."
 
 # @ blogotron
-#: functions.php:91
+#: functions.php:79
 msgid "File is not selected."
 msgstr "Файл не выбран."
 
 # @ blogotron
-#: functions.php:92 searchform.php:11
+#: functions.php:80 searchform.php:11
 msgid "Enter search keyword"
 msgstr "Поиск по сайту"
 
 # @ blogotron
-#: functions.php:230
+#: functions.php:226
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Предыдущая Страница"
 
 # @ blogotron
-#: functions.php:231
+#: functions.php:227
 msgid "Next Page &raquo;"
 msgstr "Следующая Страница &raquo;"
 
 # @ blogotron
-#: functions.php:268
+#: functions.php:264
 msgid "Published"
 msgstr "Опубликовано"
 
 # @ blogotron
-#: functions.php:268
+#: functions.php:264
 msgid "at"
 msgstr "в разрешении"
 
+#: functions.php:264
+msgid "Return to "
+msgstr "Вернуться на "
+
 # @ blogotron
-#: functions.php:281
+#: functions.php:277
 msgid "Pingback:"
 msgstr "Уведомление:"
 
 # @ blogotron
-#: functions.php:293
+#: functions.php:289
 msgid "Post Author"
 msgstr "Автор Записи"
 
 # @ blogotron
-#: functions.php:298
+#: functions.php:294
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s в %2$s"
 
 # @ blogotron
-#: functions.php:303
+#: functions.php:299
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает модерации."
 
 # @ blogotron
-#: functions.php:309
+#: functions.php:305
 msgid "Reply"
 msgstr "Ответить"
 
@@ -240,29 +247,24 @@ msgid "Search"
 msgstr "Найти"
 
 # @ blogotron
-#: sidebar.php:19
-msgid "recent posts"
-msgstr "свежие записи"
+#~ msgid "recent posts"
+#~ msgstr "свежие записи"
 
 # @ blogotron
-#: sidebar.php:34
-msgid "recent comments"
-msgstr "свежие комментарии"
+#~ msgid "recent comments"
+#~ msgstr "свежие комментарии"
 
 # @ blogotron
-#: sidebar.php:38
-msgid "on"
-msgstr "в"
+#~ msgid "on"
+#~ msgstr "в"
 
 # @ blogotron
-#: sidebar.php:45
-msgid "archives"
-msgstr "архивы"
+#~ msgid "archives"
+#~ msgstr "архивы"
 
 # @ blogotron
-#: sidebar.php:49
-msgid "categories"
-msgstr "рубрики"
+#~ msgid "categories"
+#~ msgstr "рубрики"
 
 # @ blogotron
 #~ msgid "Archives for: "

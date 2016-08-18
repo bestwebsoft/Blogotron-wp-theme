@@ -21,7 +21,8 @@ $count = $wp_query->current_post + 1; ?>
 		</h1><!-- .post-title -->
 	</header><!-- .post-header -->
 	<div class="post-meta">
-		<?php _e( 'Posted on', 'blogotron' ); ?> <a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a>
+		<?php _e( 'Posted on', 'blogotron' ); ?>
+		<a href="<?php echo esc_url( ( is_singular() ) ? get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ) : get_the_permalink() ); ?>" title="<?php the_title_attribute(); ?>"><?php echo get_the_date(); ?></a>
 		<?php if ( has_category() ) :
 			echo __( 'in', 'blogotron' ) . ' ';
 			the_category( ', ' );
