@@ -5,7 +5,7 @@ Donate link: http://bestwebsoft.com/donate/
 Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
 Requires at least: 4.2
 Tested up to: 4.6
-Stable tag: 1.9
+Stable tag: 2.0
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Blogotron WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -97,6 +97,9 @@ If menu reaches the end of the screen, the menu will be reflected in the other d
 
 == Changelog ==
 
+= V2.0 - 18.08.2016 =
+* Bugfix: Fixed wp_title.
+
 = V1.9 - 18.08.2016 =
 * Update : All functionality for WordPress 4.6 was updated.
 
@@ -140,6 +143,9 @@ If menu reaches the end of the screen, the menu will be reflected in the other d
 * Release Blogotron theme.
 
 == Upgrade Notice ==
+
+= V2.0 =
+Fixed wp_title.
 
 = V1.9 =
 * The compatibility with new WordPress version updated.
